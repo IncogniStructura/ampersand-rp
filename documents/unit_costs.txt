@@ -1,0 +1,43 @@
+**musketmen** - 1 Iron, 1 Lead, 2500 Money (50000 Manpower) ¦ Military Unit
+`1 AP ¦ 1 DP`
+
+**tpships** - 1 Iron, 5 Wood, 1000 Money (80 Manpower) ¦ Military Unit
+`- AP ¦ 1.000 DP`
+
+**galleons** - 1 Iron, 1 Lead, 5 Wood, 2000 Money (800 Manpower) ¦ Military Unit
+`1.000 AP ¦ 1.000 DP`
+
+**riflemen** - 2 Iron, 2 Lead, 2500 Money (50000 Manpower) ¦ Military Unit
+`3 AP ¦ 3 DP`
+
+**cannons** - 5 Iron, 5 Wood, 2000 Money (20000 Manpower) ¦ Military Unit
+`500 AP ¦ 20 DP`
+
+**ironclads** - 3 Iron, 5 Wood, 2 Coal, 2000 Money (1000 Manpower) ¦ Military Unit
+`1.500 AP ¦ 3.000 DP`
+
+**infantry** - 3 Iron, 3 Lead, 2500 Money (50000 Manpower) ¦ Military Unit
+`5 AP ¦ 5 DP`
+
+**tanks** - 5 Iron, 5 Lead, 2 Petrol, 2500 Money (2000 Manpower) ¦ Military Unit
+`1.500 AP ¦ 3.000 DP`
+
+**battleships** - 3 Iron, 5 Wood, 5 Petrol, 2500 Money (2000 Manpower) ¦ Military Unit
+`2.500 AP ¦ 10.000 DP`
+
+**bombers** - 3 Iron, 2 Petrol, 2500 Money (250 Manpower) ¦ Military Unit
+`2.000 AP ¦ 500 DP`
+
+**tpplanes** - 3 Iron, 2 Petrol, 2500 Money (50 Manpower) ¦ Military Unit
+`- AP ¦ 500 DP`
+
+**Technology Upgrades:**
+------------------ 
+
+**tech2** - 2 Iron, 5 Wood, 2 Lead, 10000 Money ¦ Technological Upgrade
+**tech3** - 5 Iron, 10 Wood, 5 Coal, 20000 Money ¦ Technological Upgrade
+
+**Colonisation:**
+------------------ 
+
+**settlers** - 5 Iron, 5 Wood, 5000 Money ¦ Colonisation Unit

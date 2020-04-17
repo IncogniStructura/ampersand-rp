@@ -1,0 +1,47 @@
+**Governments:**
+------------------ 
+
+**Democracy: **
+```css
+- Capability to declare wars by vote only.
+- Maximum Manpower: 5%.
+- Maximum Tax Rate: 100%.
+- Civilian Actions: 50%.
+- Becomes dictatorship when overthrown.
+```
+
+**Monarchy: **
+```css
+- Capability to declare wars: Yes.
+- Maximum Manpower: 5%.
+- Maximum Tax Rate: 50%.
+- Civilian Actions: 10%.
+- Becomes oligarchy when overthrown.
+```
+
+**Dictatorship: **
+```css
+- Capability to declare wars: Yes.
+- Maximum Manpower: 15%.
+- Maximum Tax Rate: 70%.
+- Civilian Actions: 0%.
+- Becomes monarchy when overthrown.
+```
+
+**Oligarchy: **
+```css
+- Capability to declare wars by vote only.
+- Maximum Manpower: 10%.
+- Maximum Tax Rate: 60%.
+- Civilian Actions: 10%.
+- Becomes republic when overthrown.
+```
+
+**Republic: **
+```css
+- Capability to declare wars by vote only.
+- Maximum Manpower: 3%.
+- Maximum Tax Rate: 50%.
+- Civilian Actions: 30%.
+- Becomes democracy when overthrown.
+```

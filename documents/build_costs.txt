@@ -1,0 +1,3 @@
+**mines** - 1 Iron, 3 Wood, 2 Rocks, 2500 Manpower
+**watermills** - 2 Iron, 10 Wood, 5000 Manpower
+**factories** - 6 Iron, 5 Wood, 5 Coal, 25000 Manpower
