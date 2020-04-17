@@ -1,0 +1,59 @@
+**Help:**
+---------------oOo-----oOo---------------
+Midnighter RP:
+---------------oOo-----oOo---------------
+
+```
+@help - Show this information page.
+@roll [min] <max> or @roll [max] - Roll the dice.
+```
+
+**Country commands:**
+
+```
+@nextround - See how long it is until the next round.
+@governments - Fetch a detailed list of all governments.
+@cb - Fetch a detailed list of all valid casus belli.
+
+@found <name> - Found your country.
+@government [list¦government_type] - Change your government.
+@inv [user] - Check someone's inventory.
+@industry [user] - Check your industry, or another player's industry.
+@stats [user] - Check your stats, or another player's stats.
+@politics [user] - Check on your political parties, or another player's.
+@stab [user] - Check up on your current political stability.
+
+@build <building> [number] - Build some buildings! (Do `build list` for a list of buildings).
+@craft <object> [number] - Craft something. (Do `craft list` for a list of craftable items).
+@mine [number] - Go mining.
+@forage [number] - Chop down some wood.
+
+@give <user> <number> <item> - Give someone some items.
+@militarygive <user> <number> <item> - Give someone your military units.
+@industrygive <user> <number> <item> - Give someone your industrial buildings.
+
+@coup - Coup your government to be more progressive.
+@overthrow - Overthrow your government.
+```
+
+**Administrative commands:**
+
+```
+@create <@user> <number> <material> - Create materials/items out of thin air and give it to someone.
+@remove <@user> <number> <material> - Remove materials from a player's inventory.
+@blockade <@user> - Blockade a user.
+
+@exhaust <@user>
+
+@reset-rounds - Reset the rounds on the server.
+```
+
+**Configuration commands (Admin use only):**
+Notice: __Do not use unless you know what you're doing!__
+
+```
+@set-prefix <new prefix>
+@set-round-time <seconds>
+@set-announcements-channel <channel ID>
+@eval <@user> [property] [value]
+```

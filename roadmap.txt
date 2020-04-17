@@ -1,0 +1,30 @@
+26 March - Basic inventory and data framework
+27 March - Backend and building costs
+28 March - Production values for buildings
+29 March - Finish production values
+30 March - Model population growth and manpower
+31 March - Finish infrastructure and maintenance for it
+1 April - 3 April - Model politics < We are here
+4 April - Finish elections
+5 April - Centralised Economy system
+6 April - Stock market
+7 April - Begin work on military units
+8 April - 10 April - Military customisation
+11 April - 13 April - Laws and policies mechanics
+14 April - 17 April - Technology mechanics
+18 April - 19 April - Culture and religion
+20 April - 21 April - Military movement and organisation
+22 April - 24 April - Combat mechanics
+25 April - Revolts
+26 April - 27 April - Stability and War Support modifiers
+28 April - Pollution, overcrowding and unemployment mechanics
+29 April - Natural disasters
+30 April - 1 May - Diplomacy
+2 May - Casus bellis and war justifications
+3 May - 6 May - Map automation and colonisation
+7 May - 8 May - Attaching data to provinces
+9 May - Adding nation customisation
+10 May - 14 May - Events and decisions
+14 May - 15 May - Final touches, bug-fixing
+16 May - Deployment to Herokuapp
+16/17 May - Release
