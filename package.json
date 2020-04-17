@@ -4,7 +4,7 @@
   "description": "A Discord bot for integration purposes. Custom-developed for the 11:59 Discord community.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "keywords": [
     "discord",
