@@ -10,7 +10,7 @@ client.once('ready', () => {
 	console.log("[Ampersand] is ready. Hello!");
 });
 
-client.login('Njg4OTYyMTQ1MTU2NTk1NzQz.Xm78Xg.mD75nuK-7P9KFQdwhNsmFY4lsNs');
+client.login(process.env.BOT_TOKEN);
 
 /*
 
