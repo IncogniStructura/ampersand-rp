@@ -931,9 +931,9 @@ news = [];
 							
 							//console.log('[Country Battle] A turn has elapsed!');
 							if (main.roundCount % 3 == 0) {
-								returnChannel(announcements_channel).send("@🗾 ¦ Country A turn has elapsed! It is now round **" + main.roundCount + "**.\nThis round is an expansion round! DM @Vis#5102 the provinces you wish to colonise! Remember you can only colonise one province per settler unit!");
+								returnChannel(announcements_channel).send("<@&700158364822405190> A turn has elapsed! It is now round **" + main.roundCount + "**.\nThis round is an expansion round! DM @Vis#5102 the provinces you wish to colonise! Remember you can only colonise one province per settler unit!");
 							} else {
-								returnChannel(announcements_channel).send("@🗾 ¦ Country A turn has elapsed! It is now round **" + main.roundCount + "**.");
+								returnChannel(announcements_channel).send("<@&700158364822405190>y A turn has elapsed! It is now round **" + main.roundCount + "**.");
 							}
 							main.lastTurn = current_date;
 							
