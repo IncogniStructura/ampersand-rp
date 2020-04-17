@@ -931,9 +931,9 @@ news = [];
 							
 							//console.log('[Country Battle] A turn has elapsed!');
 							if (main.roundCount % 3 == 0) {
-								returnChannel(announcements_channel).send("<@&700158364822405190> A turn has elapsed! It is now round **" + main.roundCount + "**.\nThis round is an expansion round! DM @Vis#5102 the provinces you wish to colonise! Remember you can only colonise one province per settler unit!");
+								returnChannel(announcements_channel).send("@<@&700158364822405190> A turn has elapsed! It is now round **" + main.roundCount + "**.\nThis round is an expansion round! DM @Vis#5102 the provinces you wish to colonise! Remember you can only colonise one province per settler unit!");
 							} else {
-								returnChannel(announcements_channel).send("<@&700158364822405190> A turn has elapsed! It is now round **" + main.roundCount + "**.");
+								returnChannel(announcements_channel).send("@<@&700158364822405190> A turn has elapsed! It is now round **" + main.roundCount + "**.");
 							}
 							main.lastTurn = current_date;
 							
@@ -1199,33 +1199,41 @@ client.on('message', message => {
 				
 				if (equalsIgnoreCase(arg[0], "mine")) { //$mine [int]
 					var target_user = returnMention(user_id);
-					if (main.users[target_user].government == "") {
-						message.channel.send("You don't even have a government!");
-					} else {
-						if (arg.length == 1) {
-							//(arg0_user, arg1_msg, arg2_actions)
-							mine(target_user, message, 1);
-						} else if (arg.length == 2) {
-							mine(target_user, message, arg[1]);
+					if (main.users[target_user] != undefined) {
+						if (main.users[target_user].government == "") {
+							message.channel.send("You don't even have a government!");
 						} else {
-							message.channel.send("Invalid amount of arguments!");
+							if (arg.length == 1) {
+								//(arg0_user, arg1_msg, arg2_actions)
+								mine(target_user, message, 1);
+							} else if (arg.length == 2) {
+								mine(target_user, message, arg[1]);
+							} else {
+								message.channel.send("Invalid amount of arguments!");
+							}
 						}
+					} else {
+						message.channel.send("You don't even have a country!");
 					}
 				}
 				
 				if (equalsIgnoreCase(arg[0], "forage")) { //$forage [int]
 					var target_user = returnMention(user_id);
-					if (main.users[target_user].government == "") {
-						message.channel.send("You don't even have a government!");
-					} else {
-						if (arg.length == 1) {
-							//(arg0_user, arg1_msg, arg2_actions)
-							forage(target_user, message, 1);
-						} else if (arg.length == 2) {
-							forage(target_user, message, arg[1]);
+					if (main.users[target_user] != undefined) {
+						if (main.users[target_user].government == "") {
+							message.channel.send("You don't even have a government!");
 						} else {
-							message.channel.send("Invalid amount of arguments!");
+							if (arg.length == 1) {
+								//(arg0_user, arg1_msg, arg2_actions)
+								forage(target_user, message, 1);
+							} else if (arg.length == 2) {
+								forage(target_user, message, arg[1]);
+							} else {
+								message.channel.send("Invalid amount of arguments!");
+							}
 						}
+					} else {
+						message.channel.send("You don't even have a country!");
 					}
 				}
 				
